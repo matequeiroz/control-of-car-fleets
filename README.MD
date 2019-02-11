@@ -9,16 +9,27 @@
 `npm run dev`
 
 **Registrar um usuário**
-
-`URI: user/register`
+`METHOD: POST`
+`URI: /user/register`
 {
 "name": "Mateus Roberto",
 "email": "mateus@gmail.com",
 "password": "123456"
 }
 
-**Fazer login**
+**Cadastrar um veículo**
+`METHOD: POST`
+`URI: /vehicle`
+{
+	"type": "Motorcycle",
+	"brand": "Honda",
+	"model": "XRE 300",
+	"year_model": "2018",
+	"fuel": "Gasoline"
+}
 
+**Fazer login**
+`METHOD: POST`
 `URI: /signup`
 {
 "email": "mateus@gmail.com",
