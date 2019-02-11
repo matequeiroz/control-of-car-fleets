@@ -9,6 +9,7 @@
 `npm run dev`
 
 **Registrar um usuário**
+
 `METHOD: POST`
 `URI: /user/register`
 {
@@ -18,6 +19,7 @@
 }
 
 **Cadastrar um veículo**
+
 `METHOD: POST`
 `URI: /vehicle`
 {
@@ -29,6 +31,7 @@
 }
 
 **Fazer login**
+
 `METHOD: POST`
 `URI: /signup`
 {
